@@ -526,6 +526,22 @@ video {
   visibility: hidden;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
+.-left-8 {
+  left: -2rem;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -878,6 +894,10 @@ video {
 
 .to-purple-800 {
   --tw-gradient-to: #6b21a8 var(--tw-gradient-to-position);
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-4 {
