@@ -2,7 +2,16 @@
 module.exports = {
   content: ["./build/*.html", "./build/js/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        custom_blue:'#3A41F1',
+        custom_purple: '#791E98'
+      },
+
+      fontFamily:{
+        sans:'Fira Sans'
+      }
+    },
   },
   plugins: [],
 }
