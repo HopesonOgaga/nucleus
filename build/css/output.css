@@ -1072,6 +1072,10 @@ video {
     height: 66.666667%;
   }
 
+  .md\:h-80 {
+    height: 20rem;
+  }
+
   .md\:w-1\/6 {
     width: 16.666667%;
   }
