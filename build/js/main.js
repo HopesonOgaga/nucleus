@@ -43,3 +43,13 @@ connect_acc3.addEventListener("click", function () {
   border_width2.style.height = "40px";
   border_width.style.height = "40px";
 });
+// toggl tst
+
+const toggle_btn1 = document.querySelector(".toggle_btn1");
+const toggle_btn2 = document.querySelector(".toggle_btn2");
+
+toggle_btn2.addEventListener("click", function () {
+  toggle_btn2.classList.add("toggle_btn");
+});
+
+
